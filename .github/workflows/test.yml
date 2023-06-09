@@ -1,0 +1,9 @@
+name: test Workflow
+on: workflow_dispatch
+jobs:
+  example:
+    runs-on:ubuntu-latest
+    steps:
+      -name: print to console
+        run: echo Hello GH Actions
+        
